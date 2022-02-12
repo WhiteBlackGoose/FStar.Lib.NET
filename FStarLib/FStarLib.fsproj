@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <Compile Include="../FStar/ulib/fs\prims.fs" Link="prims.fs" />
-    <Compile Include="../FStar_Pervasives.fs" Link="FStar_Pervasives.fs" />
+    <Compile Include="FStar_Pervasives.fs" />
     <Compile Include="../FStar/ulib/fs\FStar_All.fs" Link="FStar_All.fs" />
     <Compile Include="../FStar/ulib/fs\FStar_Char.fs" Link="FStar_Char.fs" />
     <Compile Include="../FStar/ulib/fs\FStar_Dyn.fs" Link="FStar_Dyn.fs" /> 
