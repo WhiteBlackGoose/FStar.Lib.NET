@@ -1,2 +1,3 @@
 # FStar.Lib.NET
-Ship F* library as a .NET nuget package
+
+This is an F# library generated from F* to make it possible to run your F* programs compiled to F#.

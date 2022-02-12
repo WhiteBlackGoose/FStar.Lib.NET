@@ -3,7 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Copyright>2008-2014 Nikhil Swamy and Microsoft Research</Copyright>
-    <PackageLicenseExpression>Apache</PackageLicenseExpression>
+    <Authors>Nikhil Swamy and Microsoft Research</Authors>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <Version>0.0.1-alpha</Version>
   </PropertyGroup>
 
