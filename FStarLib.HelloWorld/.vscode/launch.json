@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build and run",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": [
+                "codegen",
+                "build"
+            ],
+            "program": "codegen/bin/obj/Debug/net6.0/Welcome.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}
