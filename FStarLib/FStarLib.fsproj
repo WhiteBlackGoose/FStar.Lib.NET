@@ -5,7 +5,7 @@
     <Copyright>2008-2014 Nikhil Swamy and Microsoft Research</Copyright>
     <Authors>Nikhil Swamy and Microsoft Research</Authors>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>0.0.1-alpha</Version>
+    <Version>0.0.2-alpha</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,6 +29,15 @@
     <Compile Include="../FStar/ulib/fs\FStar_Mul.fs" Link="FStar_Mul.fs" />
     <Compile Include="../FStar/ulib/fs\FStar_Option.fs" Link="FStar_Option.fs" />
     <Compile Include="../FStar/ulib/fs\FStar_Pervasives_Native.fs" Link="FStar_Pervasives_Native.fs" />
+
+    <Compile Include="../FStar/ulib/fs\FStar_Set.fs" Link="FStar_Set.fs" /> 
+    <Compile Include="../FStar/ulib/fs\FStar_ST.fs" Link="FStar_ST.fs" />
+    <Compile Include="../FStar/ulib/fs\FStar_Exn.fs" Link="FStar_Exn.fs" />
+    <Compile Include="../FStar/ulib/fs\FStar_String.fs" Link="FStar_String.fs" />
+    <Compile Include="../FStar/ulib/fs\FStar_UInt16.fs" Link="FStar_UInt16.fs" />
+    <Compile Include="../FStar/ulib/fs\FStar_UInt32.fs" Link="FStar_UInt32.fs" />
+    <Compile Include="../FStar/ulib/fs\FStar_UInt64.fs" Link="FStar_UInt64.fs" /> 
+    <Compile Include="../FStar/ulib/fs\FStar_UInt8.fs" Link="FStar_UInt8.fs" />
   </ItemGroup>
 
 </Project>
